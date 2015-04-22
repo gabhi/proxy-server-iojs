@@ -1,0 +1,29 @@
+{
+  "name": "proxy-server-iojs",
+  "version": "1.0.0",
+  "description": "codepath repo for proxy server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabhi/proxy-server-iojs.git"
+  },
+  "keywords": [
+    "codepath",
+    "walmart",
+    "proxy",
+    "server",
+    "iojs"
+  ],
+  "author": "Abhijit Gaikwad",
+  "license": "ISC",
+  "scripts":{  
+	"start": "nodemon --exec babel-node -- index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/gabhi/proxy-server-iojs/issues"
+  },
+  "homepage": "https://github.com/gabhi/proxy-server-iojs#readme"
+}
