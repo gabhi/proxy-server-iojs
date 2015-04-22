@@ -4,7 +4,7 @@
   "description": "codepath repo for proxy server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec babel-node -- index.js"
   },
   "repository": {
     "type": "git",
@@ -19,11 +19,12 @@
   ],
   "author": "Abhijit Gaikwad",
   "license": "ISC",
-  "scripts":{  
-	"start": "nodemon --exec babel-node -- index.js"
-  },
   "bugs": {
     "url": "https://github.com/gabhi/proxy-server-iojs/issues"
   },
-  "homepage": "https://github.com/gabhi/proxy-server-iojs#readme"
+  "homepage": "https://github.com/gabhi/proxy-server-iojs#readme",
+  "dependencies": {
+    "request": "^2.55.0",
+    "yargs": "^3.7.2"
+  }
 }
